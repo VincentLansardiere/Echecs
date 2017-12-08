@@ -1,13 +1,16 @@
 
 public class Pion extends Piece{
 	
-	public Pion(Joueur joueur) {
-		super(joueur);
+	public Pion() {
+		super();
+	}
+
+	@Override
+	public char getLettre() {
+		return 'P';
 	}
 	
-	public getType() {
-		
-	}
+	
 	
 	
 }

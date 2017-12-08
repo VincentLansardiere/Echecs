@@ -1,8 +1,8 @@
 
 public abstract class Piece{
-	private String Joueur;
+	//private String Joueur;
 	
-	public Piece(Joueur joueur) {
+	public Piece() {
 		
 	}
 	
@@ -10,4 +10,6 @@ public abstract class Piece{
 		
 		return false;
 	}
+	
+	abstract public char getLettre ();
 }
