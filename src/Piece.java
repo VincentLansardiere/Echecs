@@ -1,6 +1,7 @@
 
 public abstract class Piece{
 	//private String Joueur;
+	private char couleur;
 	
 	public Piece() {
 		

@@ -42,7 +42,16 @@ public class Plateau{
 		
 	}
 	
-	public void déplacerPiece() {
+	public boolean déplacerPiece(int ligneDepart, int colonneDepart, int ligneArrivee, int colonneArrivee) {
+		
+		if(grille[ligneDepart][colonneDepart]==null) {
+			return false;
+		}
+		else {
+			
+		
+		return true;
+		}
 		
 	}
 }
